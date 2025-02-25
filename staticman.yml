@@ -1,9 +1,4 @@
 comments:
-  allowedFields: ["name", "message"]
-  branch: "main"
-  format: "json"
-  moderation: false
-  path: "_data/comments"
-  requiredFields: ["name", "message"]
-  transforms:
-    email: md5
+  branch: "main"  # La rama donde se guardarán los comentarios
+  format: "yaml"
+  allowedOrigins: ['*']
